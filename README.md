@@ -12,12 +12,12 @@ Project structure sourced from [the CMake docs](https://cliutils.gitlab.io/moder
       ```txt
       include
       |-project
-      |-|-lib.h
+      | |-lib.h
       |-device
-      |-|-sensor
-      |-|-|-driver.h
-      |-|-MCU
-      |-|-|-HAL
+      | |-sensor
+      | | |-driver.h
+      | |-MCU
+      | | |-HAL
       ```
 3. `src`: Project source files
 4. `tests`: Unit and integration test source code
